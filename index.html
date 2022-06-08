@@ -6,9 +6,11 @@
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
     <meta http-equiv="x-ua-compatible" content="ie=edge" />
     <title>Hom Constuction</title>
-    <!-- MDB icon -->
-    <link rel="icon" href="img/mdb-favicon.ico" type="image/x-icon" />
-    <!-- Font Awesome -->
+
+    <!-- Icon -->
+    <link rel="icon" href="C:\Users\jajab\OneDrive\Desktop\MDB5\Images/helmet.png" sizes="16x16 32X32" type="image/png">
+
+    <!-- Font -->
     <link
       rel="stylesheet"
       href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css"
@@ -75,14 +77,18 @@
       z-index: 100;
     }
 
+    #container-fluid {
+      background-color: slategrey;
+    }
+
   </style>
 
   </head>
   <body>
     <header class="mb-5">
 
-          <!-- Navbar -->
-       <nav class="navbar navbar-expand-lg navbar-light">
+  <!-- Navbar -->
+  <nav class="navbar navbar-expand-lg navbar-dark">
   <!-- Container wrapper -->
         <div class="container-fluid">
     <!-- Toggle button -->
@@ -101,19 +107,17 @@
     <!-- Collapsible wrapper -->
     <div class="collapse navbar-collapse" id="navbarSupportedContent">
       <!-- Navbar brand -->
-      <a class="navbar-brand mt-2 mt-lg-0" href="#">
+      <a class="navbar-brand mt-2 mt-lg-0" href="#home">
         <i class="fas fa-home"></i>
       </a>
       <!-- Left links -->
       <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+
         <li class="nav-item">
-          <a class="nav-link" href="#">Home</a>
+          <a class="nav-link" href="#about">About Us</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link" href="#">About Us</a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link mb-4 mb-lg-0" href="#">Contact</a>
+          <a class="nav-link mb-4 mb-lg-0" href="#contact">Contact</a>
         </li>
       </ul>
       <!-- Left links -->
@@ -148,6 +152,7 @@
 <!-- Navbar -->
 
 <!-- Carousel wrapper -->
+<div class ="home">
 <div id="carouselBasicExample" class="carousel slide carousel-fade shadw-5-strong" data-mdb-ride="carousel">
   <!-- Indicators -->
   <div class="carousel-indicators">
@@ -180,11 +185,9 @@
       <div class ="mask" style="background-color: hsla(0, 0%, 0%, 0.6);">
         <div class="d-flex justify-content-center 
         align-items-center h-100">
-          <div class ="text-center text-white">
-            <h1 class="mb-4"> Concrete </h1>
-            <h2 class="mb-4"> Previous work done on 03/06/22 </h2>
-            <button type="button" 
-            class="btn btn-outline-light btn-lg" data-mdb-ripple-color="light">Click Here!</button>
+          <div class ="carousel-caption text-center text-white">
+            <h3 class="mb-4"> Concrete </h3>
+            <h4 class="mb-4"> Previous work done on 03/06/22 </h4>
           </div>       
         </div>
      </div>
@@ -195,11 +198,9 @@
             <div class ="mask" style="background-color: hsla(0, 0%, 0%, 0.6);">
         <div class="d-flex justify-content-center 
         align-items-center h-100">
-          <div class ="text-center text-white">
-            <h1 class="mb-4"> Backyard & Patio </h1>
-            <h2 class="mb-4"> Previous work done on 03/06/22 </h2>
-            <button type="button" 
-            class="btn btn-outline-light btn-lg" data-mdb-ripple-color="light">Click Here!</button>
+          <div class ="carousel-caption text-center text-white">
+            <h3 class="mb-4"> Backyard & Patio </h3>
+            <h4 class="mb-4"> Previous work done on 03/06/22 </h4>
           </div>       
         </div>
      </div>
@@ -211,11 +212,12 @@
             <div class ="mask" style="background-color: hsla(0, 0%, 0%, 0.6);">
         <div class="d-flex justify-content-center 
         align-items-center h-100">
-          <div class ="text-center text-white">
-            <h1 class="mb-4"> Bathroom Remodels </h1>
-            <h2 class="mb-4"> Previous work done on 03/06/22 </h2>
+          <div class ="carousel-caption text-center text-white">
+            <h3 class="mb-4"> Bathroom Remodels </h3>
+            <h4 class="mb-4"> Previous work done on 03/06/22 </h4>
+            <a href="#Services"> 
             <button type="button" 
-            class="btn btn-outline-light btn-lg" data-mdb-ripple-color="light">Click Here!</button>
+            class="btn btn-outline-light btn-lg" data-mdb-ripple-color="light">See More</button></a>
           </div>       
         </div>
      </div>
@@ -234,13 +236,14 @@
     <span class="visually-hidden">Next</span>
   </button>
 </div>
+</div>
 <!-- Carousel wrapper -->
 
       
     </header>
   
     <main class="mb-5">
-      <div class="container"> 
+      <div id="about" class="container"> 
           <div class="row">
                 <div class="col-md-7 mb-4"><div
                 class="bg-image hover-overlay ripple shadow-1-strong rounded-5"
@@ -253,7 +256,7 @@
                 </div>
               </div>
                 <div class="col-md-5">      
-                    <h3> Lorem Ipsum </h3>
+                    <h3> Hom Construction's Mission </h3>
 
                     <p> sdkahsd asdkljhadc  psajdlkasjdkj 
                        as;ldjasdj asndklasjdkl askljdakls 
@@ -270,10 +273,10 @@
 
           <hr class="my-5" />
 
-          <h4 class="mb-5 text-center"> Welcome to the Party </h4>
+          <h4 class="mb-5 text-center" id="Services"> Services Offered </h4>
 
             <div class="row gx-lg-5 text-center">
-              <div class="col-md-4">
+              <div class="col-md-4" id="Services">
                 <div class="card">
                 <div class="bg-image hover-overlay ripple" data-mdb-ripple-color="light">
                 <img src="https://mdbcdn.b-cdn.net/img/new/standard/nature/111.webp" class="img-fluid"/>
@@ -282,9 +285,10 @@
                 </a>
               </div>
             <div class="card-body">
-              <h5 class="card-title">Card title</h5>
+              <h5 class="card-title">Concrete and Patios</h5>
               <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
               <a href="#!" class="btn btn-primary">Button</a>
+
               </div>
             </div> 
           </div>
@@ -298,7 +302,7 @@
                 </a>
               </div>
             <div class="card-body">
-              <h5 class="card-title">Card title</h5>
+              <h5 class="card-title">Complete Remodels</h5>
               <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
               <a href="#!" class="btn btn-primary">Button</a>
               </div>
@@ -314,7 +318,7 @@
                 </a>
               </div>
             <div class="card-body">
-              <h5 class="card-title">Card title</h5>
+              <h5 class="card-title">Roofing and Stucco</h5>
               <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
               <a href="#!" class="btn btn-primary">Button</a>
               </div>
@@ -323,10 +327,10 @@
 
         <hr class="my-5" />
 
-        <div class="row justify-content-center">
+        <div id="contact" class="row justify-content-center">
           <div class="col-md-6">
 
-            <h4 class="mb-5 text-center"> Contact Us </h4>
+          <h4 class="mb-5 text-center"> Contact Us </h4>
 
       <form class="row g-3" action="https://formsubmit.co/5aeeec0b24ec6eb3271fa821c1d21764" method="POST">
        <!-- Honey Pot -->
@@ -383,6 +387,8 @@
 
       <!-- Instagram -->
       <a class="btn btn-primary btn-floating m-1" style="background-color: #ac2bac" href="#!" role="button"><i class="fab fa-instagram"></i></a>
+
+      <a class="btn btn-primary btn-floating m-1" style="background-color: #00B74A" href="tel: 626-555-5555" role="button"><i class="fas fa-phone"></i></a>
 
     </section>
     <!-- Section: Social media -->
